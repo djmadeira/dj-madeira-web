@@ -1,0 +1,36 @@
+<head>
+  <title>This Incident Will Be Reported</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+  <meta name="description" content="A game about hacking.">
+  <script src="cmd.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
+  <link href='style.min.css' rel='stylesheet' type='text/css'>
+  <template id="input-template">
+    <div class="shell" id="shell">
+      $ <input id="input" type="text" autofocus spellcheck="false" autocomplete="false">
+    </div>
+  </template>
+  <template id="ln-template"><div class="shell-ln"></div></template>
+  <template id="note-rm-template">
+    <div class="note">
+      <a class="note-rm" href="#">x</a>
+    </div>
+  </template>
+  <template id="note-template">
+    <div class="note">
+    </div>
+  </template>
+  <template id="install-animation-template">Installing... <div class="install-animation"><div class="install-animation-inner"></div></div></template>
+</head>
+<body>
+  <div id="term-wrap" class="wrap">
+    <div id="terminal" class="terminal">
+    </div>
+  </div>
+  <footer class="links">
+    <a id="save" href="#">Save</a> <a id="load" href="#">Load</a> <a id="mute" href="#">Mute</a> <a target="_blank" class="twitter" href="https://twitter.com/dj_madeira">@dj_madeira</a>
+  </footer>
+  <noscript>
+    Sorry, you need JavaScript enabled to activate this terminal.
+  </noscript>
+</body>

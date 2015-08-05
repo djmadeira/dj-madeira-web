@@ -1,0 +1,30 @@
+---
+layout: post
+status: publish
+published: true
+title: LearnOS
+author: DJ Madeira
+author_login: webmaster
+author_email: djmadeira@me.com
+wordpress_id: 541
+wordpress_url: http://djmadeira.com/?p=541
+date: '2014-12-12 03:28:53 -0500'
+date_gmt: '2014-12-12 03:28:53 -0500'
+tags: []
+comments: []
+---
+One of my favorite features of OS X is that when you right click on any word, one of the options is "Look Up in Dictionary", which gives you both the definition and the Wikipedia entry of that word. It feels natural to be able to view the definition inline, dig deeper if necessary, then read on. Learning to program is often the same way; see a new term, look it up, and come out of a rabbit hole hours later smarter for it. What if we could formalize, and expand on, this style of learning?
+
+Whether you're pursuing computer science as your major, doing a 6 week bootcamp on building websites with Bootstrap or teaching yourself how to program in Python, you won't succeed at programming <em>as a career</em> without a curiosity about how computers work. But there are so many hurdles to actually getting a program working, that in a moment of frustration it can be easy to bail and look at Twitter instead. Aside from the practical problems (where can I host my website, how do I compile this, what's a good starter project), beginners are missing a lot of the core tools experienced programmers take for granted. There's no collection of patterns, dos and don'ts that have been pounded in by experience. There's no knowledge about what the debugging tools are and how to use them when something isn't working. And the high frustration threshold that all developers learn over time hasn't been built up yet, leaving them vulnerable to ragequitting when things get frustrating.
+
+In an academic setting, these problems are managed by slowly ramping up the difficulty, providing abstraction when nitty gritty isn't as important as big concepts, and providing consequences for not doing the work. In a self-taught environment (which you more or less <a href="http://www.npr.org/blogs/money/2014/10/21/357629765/when-women-stopped-coding">have to have to succeed in programming</a>, regardless of degree,) none of these guard rails exist. So how can we cultivate an environment where learners are encouraged to stay the course?
+
+What if we could soften this curve by designing an operating system that lets beginners learn about computing the same way we learn about the world around us; by touching, tasting, experimenting, and asking questions? What if we took the "Look up in Dictionary" approach to all software in an ecosystem, letting the user find out how the software they use was made just by exploring?
+
+For example, what if, in OS X, you could right click on the title bar of any window and open that window's Xib in Interface Builder? What if an FTP client had a log window showing all the commands it was sending behind the scenes? Or better yet, what if watching the network inputs and outputs going to an application was built into the operating system?
+
+And maybe we could get the internet involved. What if every program had a discussion board right along side the man page? Or maybe online pair programming and tutoring could built into the OS for those really hard questions?
+
+But I bet the really interesting ideas would come from creating an architecture that lends itself to learning. While we're dreaming big, what if we wrote the OS from scratch strongly decoupled and layered, so users can dig into the parts they're interested in, one layer at a time, all the way to machine code?
+
+Really, we should be writing all our code with learning in mind anyway, since the only reason to write clear code is so other people can understand it. Maybe an operating system with a fixation on making learning easier would just be, well, a better operating system.
