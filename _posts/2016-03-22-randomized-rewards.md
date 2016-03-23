@@ -1,5 +1,11 @@
 ---
 title: How to Use Randomness to Hide Uninteresting Choices
+layout: post
+status: publish
+published: true
+author: DJ Madeira
+author_email: djmadeira@me.com
+date: '2016-03-22 21:16:00 -0500'
 ---
 Today I want to talk about two excellent games: XCOM 2 and Invisible, Inc. In the macro, they are very similar: both are turn-based squad-controlling strategy games. Both generate tension by giving the player seemingly impossible challenges. But the ways in which they use randomness to create drama and challenge differ dramatically.
 
