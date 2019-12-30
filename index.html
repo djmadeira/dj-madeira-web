@@ -4,8 +4,12 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
 
+  <div class="twitter-wrapper alignright">
+    <a class="twitter-timeline" data-height="600" data-width="300" data-dnt="true" data-theme="light" href="https://twitter.com/dj_madeira?ref_src=twsrc%5Etfw">Tweets by dj_madeira</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+  </div>
+
+  <h1 class="page-heading">Posts</h1>
   <ul class="post-list">
     {% for post in site.posts %}
     {% unless post.tags contains "archived" %}
@@ -20,6 +24,6 @@ layout: default
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">subscribe <a href="{% link feed.xml %}">via RSS</a></p>
 
 </div>
