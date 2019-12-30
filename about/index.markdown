@@ -11,7 +11,7 @@ author:
 author_login: webmaster
 author_email: djmadeira@me.com
 wordpress_id: 203
-wordpress_url: http://blog.sitesahoy.com/?page_id=203
+wordpress_url: http://djmadeira.com/?page_id=203
 date: '2013-08-01 15:34:39 -0400'
 date_gmt: '2013-08-01 15:34:39 -0400'
 categories: []
