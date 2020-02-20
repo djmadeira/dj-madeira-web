@@ -9,6 +9,10 @@ date: '2020-02-20 12:00:00 -0500'
 tags:
 ---
 
+My twitter thread on this debate and the idea of justice in general:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In this eye-opening debate, Foucault makes some very interesting points on justice that I would like to link to work done by the neuroscientist/evolutionary biologist Robert Sapolsky. The interesting 10 minutes starts here: <a href="https://t.co/AbfPJZDhGT">https://t.co/AbfPJZDhGT</a> (a thread)</p>&mdash; dj madeira (@dj_madeira) <a href="https://twitter.com/dj_madeira/status/1230590368548302849?ref_src=twsrc%5Etfw">February 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
 This page is an except from the excellent debate between Michel Foucault and Noam Chompsky "On human nature". I think this particular bit about justice is especially interesting.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3wfNl2L0Gf8?start=3137" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
