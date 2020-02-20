@@ -9,6 +9,18 @@ layout: default
     <a class="twitter-timeline" data-height="600" data-width="300" data-dnt="true" data-theme="light" href="https://twitter.com/dj_madeira?ref_src=twsrc%5Etfw">Tweets by dj_madeira</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
   </div>
 
-  The whole idea of a blog seems backward and dumb now. But also I feel bad feeding the silos. I am either going to put in some work to make this something that works with how I actually use the internet or this will continue to languish. Probably the latter. For now, here is a twitter feed.
+  <ul class="post-list">
+    {% for post in site.posts %}
+    {% if post.tags contains "archived" %}
+    {% else %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
 </div>
